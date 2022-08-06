@@ -1,0 +1,451 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Teko';
+    color: #777;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 90px;
+}
+.heading h3{
+    color: #000;
+    font-size: 50px;
+    margin-bottom: 23px;
+}
+
+.heading p{
+    width: 50%;
+    margin: auto;
+    font-size: 30px;
+    color: #777777;
+}
+
+
+.btn{
+    background-color: #6a4dc5;
+    border: 1px solid #fff;
+    outline: none;
+    padding: 12px 50px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+
+
+}
+
+ /* start nav  */
+
+ nav{
+
+    overflow: auto;
+    padding: 8px 0;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+ }
+
+ nav .logo{
+    width: 80%;
+    float: left;
+ }
+
+ nav .logo img{
+    width: 13%;
+    padding: 4px 0;
+ }
+
+ nav .list{
+    width: 20%;
+    float: left;
+ }
+
+ nav .list ul{
+    list-style: none;
+ }
+
+ nav .list ul li a{
+    text-decoration: none;
+    padding: 8px 25px;
+    float: left;
+    font-size: 20px;
+    color: white;
+
+}
+
+nav .list ul li a:hover{
+    color: blue;
+}
+
+ /* end nav  */
+
+
+
+ /* start header */
+
+ header{
+    background: url("../images/banner-bg.jpeg");
+    width: 100%;
+    height: 630px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+ }
+
+
+  header .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(132, 96, 246, 0.7);
+ }
+
+ header .info{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    width: 50%;
+    z-index: 2;
+    text-align: center;
+    color: white;
+ }
+ header .info h4{
+  font-size: 50px;
+ }
+
+ header .info p{
+    font-size: 30px;
+
+}
+header .info button{
+    margin-top: 30px;
+}
+
+ /* end header  */
+
+ /* start history */
+.history{
+    background-color: #f2f5f7;
+    padding: 70px 0;
+}
+
+.history .history-desc{
+    width: 100%;
+    height: 467px;
+    background-color: #fff;
+
+
+}
+
+.history .history-image{
+    float: left;
+    width: 33.33333%;
+
+}
+
+.history .history-image img{
+   margin: -25px 25px;
+
+}
+.history .history-info{
+    float: left;
+    width: 50%;
+    padding: 54px;
+}
+
+.history .list-btn{
+    margin: 0 0 40px;
+}
+
+
+.history .list-btn .btn:first-child{
+ padding: 15px 25px;
+ background-color: #6a4dc5;
+ color: white;
+}
+
+
+.history .list-btn .btn{
+    padding: 15px 25px;
+    background-color: transparent;
+    color: #777777;
+    border: 1px solid #777777;
+    margin-right: 10px;
+    font-size: 19px;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+
+.history .list-btn .btn:hover{
+    background-color: #6a4dc5;
+    color: white;
+}
+
+.history .history-info h3{
+    color: #000;
+    font-size: 35px;
+    margin-bottom: 22px;
+
+}
+
+.history .history-info p{
+    color: #777777;
+    font-size: 20px;
+
+}
+
+ /* end history */
+
+
+
+ /* start skills */
+
+ .skills{
+    background-color: #6a4dc5;
+    height: 512px;
+    overflow: auto;
+
+ }
+
+ .skills .skills-info{
+    float: left;
+    width: 25%;
+ }
+
+ .skills .skills-info .skills-icon{
+    background: #fff;
+    text-align: center;
+    padding: 80px 0;
+
+ }
+
+ .skills .skills-info .skills-icon:hover{
+    background: #6a4dc5;
+    color:white;
+ }
+
+ .skills .skills-info .skills-icon img{
+    width: 20%;
+
+ }
+
+ .skills .skills-info .skills-icon p{
+    color: #000;
+    font-size: 23px;
+    font-weight: 600;
+
+ }
+
+ .skills-info .skills-desc{
+    background: #7a62c5;
+    padding: 105px 26px;
+    color: white;
+    text-align: center;
+
+
+ }
+
+
+ /* end skills */
+
+
+  /* start experience */
+
+  .exp{
+    padding: 70px 0;
+  }
+
+  .exp .vector{
+    overflow: auto;
+  }
+
+
+  .exp .vector .vector-info{
+    float: left;
+    width: 25%;
+  }
+
+
+  .exp .vector .vector-info .vector-img img{
+    width: 90%;
+
+  }
+
+  .exp .vector .vector-desc{
+    float: left;
+    width: 50%;
+}
+
+.exp .vector .vector-desc .vector-detail{
+    padding: 40px;
+}
+
+.exp .vector .vector-desc .vector-detail h2{
+    color: #000;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    text-transform: capitalize;
+
+}
+
+.exp .vector .vector-desc .vector-detail h5{
+    color: #5d5d5b;
+    font-weight: 200;
+    font-size: 17px;
+    margin-bottom: 20px;
+
+}
+
+.exp .vector .vector-desc .vector-detail p{
+    color: #777777;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+
+}
+
+.exp .vector .vector-desc .vector-detail .btn{
+    background-color: transparent;
+    color:#6a4dc5;
+    border: 1px solid #eee;
+    padding: 10px 20px;
+    font-weight: normal;
+
+
+}
+
+.exp .vector .vector-desc .vector-detail .btn:hover{
+    background-color:#6a4dc5;
+    color: #fff;
+
+}
+
+  /* end  experience */
+
+
+
+
+/* start projects */
+
+.projects{
+    background: #5dd1e3;
+    padding: 70px 0;
+}
+
+.projects .heading h3{
+    color: #fff;
+}
+
+.projects .heading p{
+    color: #fff;
+}
+
+.projects .some-projects{
+    overflow: auto;
+    background: #fff;
+    height: 284px;
+    overflow-y: hidden;
+}
+
+.projects .some-projects .some-info{
+    float: left;
+    width: 66.6666%;
+}
+
+.projects .some-projects .some-info img{
+    width: 93%;
+    height: 284px;
+}
+
+.projects .some-projects .some-desc{
+    float: left;
+    width: 33.3333%;
+}
+
+
+.projects .some-projects .some-desc .projects-details{
+    padding: 80px 48px;
+}
+
+.projects .some-projects .some-desc .projects-details h3{
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.projects .some-projects .some-desc .projects-details p{
+    color: #777777;
+    font-size: 15px;
+    letter-spacing: 0px;
+}
+/* end  projects */
+
+
+/* start keep */
+
+.keep{
+    padding: 100px 0;
+}
+
+.keep form{
+    overflow: auto;
+    width: 70%;
+    margin: auto;
+}
+
+.keep form input{
+    float: left;
+    width: 43.1111%;
+    height: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    border: 1.5px solid #eee;
+}
+
+.keep form input:nth-of-type(2){
+    margin-right: 0;
+}
+
+.keep form textarea{
+    width: 94%;
+    height: 183px;
+    border: 1.5px solid #eee;
+
+}
+
+.keep form input::placeholder,.keep form textarea::placeholder{
+    color: #979797;
+    font-size: 17px;
+}
+
+.keep form .btn{
+    float: right;
+    padding: 10px 22px;
+    background: transparent;
+    color: #6a4dc5;
+    border: 1px solid #eee;
+    margin-top: 18px;
+    margin-right: 37px;
+}
+
+.keep form .btn:hover{
+    background: #6a4dc5;
+    color: white;
+}
+/* end keep */
